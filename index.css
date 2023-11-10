@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap');
+
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+
+.navbar-nav{
+    gap: 50px;
+}
+.hero__title{
+    font-size: 80px;
+    line-height: 77px; 
+    letter-spacing: -2.501px;
+}
+
+.hero__subtitle{
+    color: #696871;
+    font-family: Mulish;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.625px;
+}
+
+.plan__title{
+    color: #19191B;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    width: 523px;
+    letter-spacing: -1.876px;
+}
+
+/* === hovers === */
+
+.nav-link{
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    transition: all 0.5s;
+}
+.nav-link:hover{
+    border-bottom: 2px solid #5454D4;;
+}
+
+.header__btn{
+    padding: 18px 60px;
+    background: #FF7143;
+    border: 1px solid transparent;
+    transition: all 0.5s;
+}
+
+
+.header__btn:hover{
+    color: black;
+    border: 1px solid #FF7143;
+}
+
+.hero__btn{
+    padding: 18px 60px;
+    border: 1px solid transparent;
+    transition: all 0.5s;
+}
